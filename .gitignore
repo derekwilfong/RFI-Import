@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+*.log
+rfi_list.csv
+import_log.json

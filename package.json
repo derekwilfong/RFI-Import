@@ -1,0 +1,25 @@
+{
+  "name": "rfi-import",
+  "version": "1.0.0",
+  "description": "Automated RFI import to Autodesk Build from CSV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "import": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RFI",
+    "Autodesk Build",
+    "import",
+    "CSV"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "csv-parse": "^5.4.0",
+    "dotenv": "^16.3.1",
+    "readline-sync": "^1.4.10"
+  }
+}
